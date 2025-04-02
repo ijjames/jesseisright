@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jesse is Right</title>
+    <!-- Google Fonts Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #201D20;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Silkscreen', sans-serif;
+            color: #E09515;
+            text-align: center;
+        }
+
+        .container {
+            font-size: 10vw; /* Default size for desktop */
+            padding: 20px;
+            word-wrap: break-word;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                font-size: 15vw; /* Larger text on mobile */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        Jesse is Right.
+    </div>
+</body>
+</html>
